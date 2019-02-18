@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charSet="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+   <link rel="stylesheet" href="https://cdn.svc.oneadvanced.com/mosaic/2.0.0/css/mosaic.css">
+  <link rel="shortcut icon" href="/static/favicons/favicon.ico"/>
+
+  <link href="introjs.css" rel="stylesheet">
+  <link href="bootstrap-responsive.min.css" rel="stylesheet">
+  <script type="text/javascript" src="intro.js"></script>
+
+  <title>Mosaic Template Builder</title>
+  <style type="text/css">
+    body,html {
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+<div class="container-fluid w-100">
+    <div class="jumbotron">
+        <h4 class="d-inline">Intro js demo!</h1>
+        <a class="btn btn-primary float-right align-middle" href="#" role="button" style="display:table-cell" data-step="5" data-intro="Read more.Tour ends here.">Learn more</a>
+      </div>
+  <div class="row align-self-center w-100">
+    <div class="col-sm-6 mx-auto">
+      <h1 data-step="1" data-intro="Welcome!" class="text-center mb-0">Welcome!</h1>
+      <p class="text-center text-info">A template builder for Mosaic</p>
+      <hr>
+      <p class="mb-2">To get started:</p>
+      <ol>
+        <li data-step="2" data-intro="First point">Choose an application shell or page</li>
+        <li data-step="3" data-intro="Second point">Build a layout with containers or pick a predefined layout</li>
+        <li data-step="4" data-intro="Third point">Pick patterns and components for your template</li>
+        <li>Save it</li>
+        <li>Share with colleagues</li>
+        <li>Happy days!</li>
+      </ol>
+      <div class="text-center">
+          <button class="btn btn-info" href="javascript:void(0);" onclick="javascript:introJs().start();">Take a quick tour</button>
+      </div> 
+    </div>
+  </div>
+</div>
+</body>
+</html>
